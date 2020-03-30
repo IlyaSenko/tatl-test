@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/IlyaSenko/tatl-test/static/css/main.5f361e03.chunk.css",
+    "main.js": "/IlyaSenko/tatl-test/static/js/main.d46dee94.chunk.js",
+    "main.js.map": "/IlyaSenko/tatl-test/static/js/main.d46dee94.chunk.js.map",
+    "runtime-main.js": "/IlyaSenko/tatl-test/static/js/runtime-main.e30d6b90.js",
+    "runtime-main.js.map": "/IlyaSenko/tatl-test/static/js/runtime-main.e30d6b90.js.map",
+    "static/js/2.50ab1d20.chunk.js": "/IlyaSenko/tatl-test/static/js/2.50ab1d20.chunk.js",
+    "static/js/2.50ab1d20.chunk.js.map": "/IlyaSenko/tatl-test/static/js/2.50ab1d20.chunk.js.map",
+    "index.html": "/IlyaSenko/tatl-test/index.html",
+    "precache-manifest.2be546cfd565b7b5a604bcf918c2f550.js": "/IlyaSenko/tatl-test/precache-manifest.2be546cfd565b7b5a604bcf918c2f550.js",
+    "service-worker.js": "/IlyaSenko/tatl-test/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/IlyaSenko/tatl-test/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.50ab1d20.chunk.js.LICENSE.txt": "/IlyaSenko/tatl-test/static/js/2.50ab1d20.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/IlyaSenko/tatl-test/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e30d6b90.js",
+    "static/js/2.50ab1d20.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.d46dee94.chunk.js"
+  ]
+}
