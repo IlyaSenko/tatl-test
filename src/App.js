@@ -2,25 +2,34 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  constructor(props){
+    super(props);
+    this.state = {
+      inputData: ""
+    }
+    this.showPrompt = this.showPrompt.bind(this);
+    this.showData = this.showData.bind(this);
+  };
+  showPrompt() {
+    let inputData = prompt("Please enter some data");
+    this.setState({
+      inputData
+    });
+  };
+
+  showData() {
+    alert(this.state.inputData)
+  };
+
+  render() {
+    return (
+      <div className="App">
+        <button onClick={this.showPrompt} type="button">Input Data</button>
+        <button onClick={this.showData} type="button">Output Data</button>
+      </div>
+    );
+  }
 }
 
 export default App;
